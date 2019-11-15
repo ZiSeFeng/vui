@@ -1,0 +1,161 @@
+.-input {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 100%;
+  height: 32px;
+  padding: 4px 10px;
+  border: 1px solid #d8e1f0;
+  border-radius: 3px;
+  font-size: 14px;
+  line-height: 32px;
+  color: #666;
+  transition: border-color 0.2s;
+
+  &:hover {
+    border-color: #c4ceda;
+  }
+
+  &:focus {
+    border-color: #388ae4;
+  }
+}
+
+.-input {
+  width: 300px;
+}
+
+::-webkit-input-placeholder {
+  /* WebKit browsers */
+  color: #ccc;
+}
+
+:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #ccc;
+}
+
+::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #ccc;
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10+ */
+  color: #ccc;
+}
+
+.m-input-sm {
+  width: 100px;
+  height: 25px;
+  line-height: 25px;
+}
+
+.m-input-xxsmw {
+  width: 100px;
+}
+
+.m-input-xsmw {
+  width: 135px;
+}
+
+.m-input-xsw {
+  width: 120px;
+}
+
+.m-input-smw {
+  width: 180px;
+}
+
+.m-input-lgw {
+  width: 314px;
+}
+
+.m-input-lg {
+  width: 148px;
+  height: 36px;
+  line-height: 36px;
+}
+
+.m-input-xl {
+  width: 415px;
+}
+
+.m-input-xxl {
+  width: 580px;
+}
+
+.m-input-xxxl {
+  width: 700px;
+}
+
+.m-input-full {
+  width: 100%;
+}
+
+.m-input-flat {
+  border-radius: 0;
+}
+
+.m-input-pr {
+  padding-right: 26px;
+}
+
+.m-input:disabled,
+.m-textarea:disabled,
+.m-input.z-dis {
+  background: #fff;
+  border: 1px solid #dae1f2;
+  border-radius: 2px;
+  color: #999;
+}
+
+.m-input-full {
+  width: 100%;
+}
+
+.m-input-error {
+  border-color: #f56c6c;
+}
+
+.m-textarea {
+  width: 400px;
+  height: 120px;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  padding: 5px 10px;
+  border: 1px solid #d8e1f0;
+  border-radius: 4px;
+  font-size: 14px;
+  line-height: 22px;
+  color: #666;
+  transition: border-color 0.2s;
+  resize: none;
+
+  &:hover {
+    border-color: #c4ceda;
+  }
+
+  &:focus {
+    border-color: #388ae4;
+  }
+}
+
+.m-textarea.err {
+  border-color: #ff877f !important;
+}
+
+.m-textarea.js-invalid {
+  border: 1px solid #ff867f !important;
+}
+
+.m-textarea-sm {
+  width: 250px;
+  border-radius: 1px;
+}
+
+.m-input-error,
+.m-input-error:focus,
+.m-input-error:hover {
+  border-color: #f56c6c;
+}

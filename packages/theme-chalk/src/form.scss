@@ -1,0 +1,71 @@
+@import "./mixins/mixins";
+@import "./mixins/utils";
+@import "./common/var";
+
+.m-form {
+  &.is-left {
+    .m-form-item--label {
+      text-align: left;
+    }
+  }
+
+  &.is-top {
+    .m-form-item--label {
+      float: none;
+      display: inline-block;
+      padding: 0 0 10px;
+    }
+  }
+}
+
+.m-form-item {
+  margin-bottom: 24px;
+  vertical-align: top;
+  zoom: 1;
+
+  &:after {
+    clear: both;
+    visibility: hidden;
+    font-size: 0;
+    height: 0;
+  }
+
+  &:after,
+  &:before {
+    content: "";
+    display: table;
+  }
+
+  &.is-required {
+    .m-form-item--label:before {
+      content: "*";
+      display: inline-block;
+      margin-right: 4px;
+      line-height: 1;
+      font-family: SimSun;
+      font-size: 14px;
+      color: #ed4014;
+    }
+  }
+}
+
+.m-form-item--label {
+  text-align: right;
+  vertical-align: middle;
+  float: left;
+  font-size: 14px;
+  color: #515a6e;
+  line-height: 1;
+  padding: 10px 12px 10px 0;
+  box-sizing: border-box;
+}
+
+.m-form-item--content {
+  position: relative;
+  line-height: 32px;
+  font-size: 14px;
+}
+
+.m-form-item--message {
+  color: #ed4014;
+}
