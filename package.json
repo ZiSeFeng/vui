@@ -36,7 +36,7 @@
     "es6-promise": "^4.2.8",
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.0.0",
-    "highlight.js": "^9.15.10",
+    "highlight.js": "^10.4.1",
     "karma": "^4.4.1",
     "karma-chai": "^0.1.0",
     "karma-chrome-launcher": "^3.1.0",
